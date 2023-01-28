@@ -1,0 +1,155 @@
+*, *::before, *::after {  /* A more-intuitive box-sizing model. Idea from JoshComeau.com */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+} 
+
+body {
+  font-size: 0.9375em;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+
+img {
+  display: inline-flex;
+  width: 40% !important; 
+  height: auto;
+  padding-bottom: 10px;
+}
+
+h1 {
+  line-height: 1;
+  color: hsl(0, 0%, 95%);
+  font-size: 45px;
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px 0 20px 0;
+  letter-spacing: 1.25 !important;
+} 
+
+.container {
+  display: flex;  
+  padding: 25px;
+ 
+}
+
+div {
+  padding: 25px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  padding-bottom: 50px;
+}
+
+.first-column {
+  display: flex; 
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px !important;
+}
+
+.second-column {
+  display: flex; 
+  background-color: hsl(184, 100%, 22%);
+}
+
+.third-column {
+  display: flex; 
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px !important;
+  }
+
+.btn-sedan {
+  color:hsl(31, 77%, 52%);
+  border-radius: 25px;
+  background-color: hsla(0, 0%, 100%, 0.95);
+  width: 135px;
+  height: 45px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.btn-suvs {
+  color: hsl(184, 100%, 22%);
+  border-radius: 22px;
+  background-color: hsla(0, 0%, 100%, 0.95);
+  width: 135px;
+  height: 45px;
+  border: 2px solid hsla(0, 0%, 100%, 0.95);
+  cursor: pointer;
+}
+
+.btn-luxury {
+  color: hsl(179, 100%, 13%) !important;
+  border-radius: 22px;
+  background-color: hsla(0, 0%, 100%, 0.95);
+  width: 135px;
+  height: 45px;
+  border: 2px solid hsla(0, 0%, 100%, 0.95);
+  cursor: pointer;
+}
+
+button {
+  font-family: 'Lexend Deca', sans-serif;
+  transition: all .25s ease-in-out;
+ }
+
+button:hover {
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 0.95) !important;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: bottom; 
+  padding-top: 25px;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    padding: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+   }
+  .first-column {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+  }
+  .third-column {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+    height: auto;
+    flex-direction: column;
+  }
+  .first-column {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 0 !important;
+  }
+  .third-column {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-top-right-radius: 0 !important;
+  }   
+}
+ 
