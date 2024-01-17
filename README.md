@@ -59,24 +59,24 @@ I started the project looking at what was provided in the .html file, what the f
 
 ### What I learned
 
-I learned that classing a div as "col-md-4" isn't necessary when trying to create consistent widths for the three columns. I saw other solutions after I created mine, and no one used the Bootstrap method.  To clarify, it is nessary the way that I wrote it, but it can be re-written w/o bootstrap with the same outcome.
+I learned that classing a div as "col-md-4" isn't necessary when creating consistent widths for the three columns. I saw other solutions after I created mine, and no one used the Bootstrap method.  How I wrote it is necessary, but it can be rewritten w/o Bootstrap with the same outcome.
 
 
 ### Continued development
 
-I feel like my code is in a good place, but it is far from perfect.  There is so much I do not know.  I am continuously playing around with CSS grid and Flexbox to make sure I am achieving the desired outcome.  In addition, as it pertains to this project, I found the icons to be challenging.  I could not seem to get the width and height to scale accurately when changing the size of the window/screen.
+My code is in a good place but far from perfect.  There is so much I do not know.  I am continuously playing around with CSS Grid and Flexbox to ensure I achieve the desired outcome.  In addition, as it pertains to this project, I found the icons to be challenging.  I could not get the width and height to scale accurately when changing the size of the window/screen.
 
-I would like to learn more about when and WHY to use em's, rem's, and px's.
+I want to learn more about when and WHY to use em's, rem's, and px's.
 
 Not sure how to get the Frontend Mentor <div class="attribution"> to show up at the bottom of the columns.
 
 
 ### Useful resources
 
-- [Bootstrap](https://getbootstrap.com/) - This helped me to flex the columns and rows. I hope to discover an easier and more readable method going forward.
+- [Bootstrap](https://getbootstrap.com/) - This helped me to flex the columns and rows. I hope to discover an easier and more readable method in the future.
 - [Josh Comeau](http://www.joshcomeau.com/custom-css-reset/) - Josh has made his CSS Reset public for anyone to use.  It has improved my CSS experience by making it more consistent and aesthetically pleasing.
-- [YouTube](www.youtube.com) - I like to look at solutions provided by various developers for best practice.  I'm always looking for better and cleaner ways to code.  There are many methods used to gain the same/similar result.
-- [Stack Overflow](www.stackoverflow.com) - Over 100M people visit Stack Overflow every month.  When someone has a question that they cannot figure out, they can ask it in this forum.  Nine times out of ten, my questions have been answered by somone else's answered question.
+- [YouTube](www.youtube.com) - I like to look at solutions provided by various developers for best practices.  I'm always looking for better and cleaner ways to code.  There are many methods used to gain the same/similar result.
+- [Stack Overflow](www.stackoverflow.com) - Over 100M people visit Stack Overflow every month.  When someone has a question they cannot figure out, they can ask it in this forum.  Nine times out of ten, my questions have been answered by someone else's answered question.
 
 - GitHub - [Magnus602](https://github.com/Magnus602/Three-Column-Preview-Card.git)
 - Frontend Mentor - [@Magnus602](https://www.frontendmentor.io/profile/yourusername)
